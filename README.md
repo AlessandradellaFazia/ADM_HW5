@@ -24,10 +24,10 @@ The resource also gives the page names of the articles and the categories of the
 
 ## Content of the repository:
 
-1) ```main.ipynb``` 
+1) ***```main.ipynb```***
 contains answers to research questions and the implemented algorithms.<br>
 [Click here](https://nbviewer.jupyter.org/github/AlessandradellaFazia/ADM_HW5/blob/main/main.ipynb) to visualize the notebook.
-2) ```functions.py``` 
+2) ***```functions.py```***
 contains all used functions.
 
 ## Analysis topics
@@ -39,9 +39,9 @@ Precisely the analysis consists of:
 4) Given two categories: C1 and C2, looking at the subgraph constituted by the articles in the two categories and considering two arbitrary pages U and V in the subgraph, tells what is the minimum set of hyperlinks one can remove to disconnect U and V.
 5) Given an arbitrary category C0, provides the list of remaning categories sorted by their distance from C0. The distance between two categories is defined as:
 
-distance(C0, Ci) = median(ShortestPath(C0, Ci))
+    distance(C0, Ci) = median(ShortestPath(C0, Ci))
 
-where ShortestPath(C0, Ci) is the set of shortest paths from each pair of nodes in the two categories.
+    where ShortestPath(C0, Ci) is the set of shortest paths from each pair of nodes in the two categories.
 
 6) Rank the categories in the graph according to their PageRank (PR).
 
