@@ -14,14 +14,15 @@ Looking at the categories of the articles, we analyze important characteristics 
 The work is based on the web graph of Wikipedia hyperlinks provides by the Stanford Network Analysis Project [here](https://snap.stanford.edu/data/wiki-topcats.html).
 The resource also gives the page names of the articles and the categories of the articles.
 
-### Datasets:
+## Datasets:
 
 1. the reduced version of the [web graph](https://drive.google.com/file/d/1QVt0aMOFvLjOEm5eKeCxBQUwIU30_NIh/view?usp=sharing)
-2. ```wiki-topcats-categories.txt.gz``` datset of the categories of the articles, available here
-3. ```wiki-topcats-page-names.txt.gz``` dataset of names of the articles, available here
+2. ```wiki-topcats-categories.txt.gz``` datset of the categories of the articles.
+3. ```wiki-topcats-page-names.txt.gz``` dataset of names of the articles.
+
 2 and 3 are available on the [SNAP page](https://snap.stanford.edu/data/wiki-topcats.html)
 
-### Content of the repository:
+## Content of the repository:
 
 1) ```main.ipynb``` 
 contains our analysis: answers to research questions and the implemented algorithms.
@@ -29,6 +30,7 @@ contains our analysis: answers to research questions and the implemented algorit
 2) ```functions.py``` 
 contains all used functions.
 
+## Analysis topics
 Precisely the analysis consists of:
 
 1) Build the graph G=(V, E), where V is the set of articles and E the hyperlinks among them. Provides basic information as: number of articles, number of hyperlinks, the graph density, the nodes' degree distribution.
