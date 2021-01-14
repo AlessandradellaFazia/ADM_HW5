@@ -6,12 +6,31 @@
 
 
 In this Homework we analyse the Wikipedia's hyperlinks network. 
-The model provides that the articles are nodes of the network, connected through links (edges).<br> the articles are characterized by the category they belong to.
-Looking at the categories of the articles of the well-known online encyclopedia, we analyze important characteristics of the network, such as the reachability of the nodes, the distance between nodes, the classification of categories based on the PageRank.
+
+The model provides that the articles are nodes of the network, connected through links (edges).<br> 
+The articles are characterized by the category they belong to.
+Looking at the categories of the articles, we analyze important characteristics of the network, such as the reachability, the distance between nodes, the ranking of categories based on the PageRank.
+
 The work is based on the web graph of Wikipedia hyperlinks provides by the Stanford Network Analysis Project [here](https://snap.stanford.edu/data/wiki-topcats.html).
 The resource also gives the page names of the articles and the categories of the articles.
 
+### Datasets:
+
+1. the reduced version of the [web graph](https://drive.google.com/file/d/1QVt0aMOFvLjOEm5eKeCxBQUwIU30_NIh/view?usp=sharing)
+2. ```wiki-topcats-categories.txt.gz``` datset of the categories of the articles, available here
+3. ```wiki-topcats-page-names.txt.gz``` dataset of names of the articles, available here
+2 and 3 are available on the [SNAP page](https://snap.stanford.edu/data/wiki-topcats.html)
+
+### Content of the repository:
+
+1) ```main.ipynb``` 
+contains our analysis: answers to research questions and the implemented algorithms.
+[Click here](https://nbviewer.jupyter.org/github/AlessandradellaFazia/ADM_HW5/blob/main/main.ipynb) to visualize the notebook.
+2) ```functions.py``` 
+contains all used functions.
+
 Precisely the analysis consists of:
+
 1) Build the graph G=(V, E), where V is the set of articles and E the hyperlinks among them. Provides basic information as: number of articles, number of hyperlinks, the graph density, the nodes' degree distribution.
 2) Given a page v and a number of clicks d, provides the set of all pages reachable within d clicks. 
 3) Given a category C, considering the set of pages in C p = {p1, ..., pn}, provides the minimum number of clicks required to reach all pages in p, starting from the page v, where v is  corresponding to the most central article in C.
@@ -24,19 +43,7 @@ where ShortestPath(C0, Ci) is the set of shortest paths from each pair of nodes 
 
 6) Rank the categories in the graph according to their PageRank (PR).
 
-
-### Content of the repository:
-1) ```main.ipynb``` 
-contains our analysis: answers to research questions and the implemented algorithms.
-2) ```functions.py``` 
-contains all used functions.
-
-### Datasets:
-1. the reduced version of the [web graph](https://drive.google.com/file/d/1QVt0aMOFvLjOEm5eKeCxBQUwIU30_NIh/view?usp=sharing)
-2. ```wiki-topcats-categories.txt.gz``` datset of the categories of the articles, available here
-3. ```wiki-topcats-page-names.txt.gz``` dataset of names of the articles, available here
-2 and 3 are available on the [SNAP page](https://snap.stanford.edu/data/wiki-topcats.html)
-
+More details in the [delivery](https://github.com/CriMenghini/ADM/blob/master/2020/Homework_5/README.md) of the project.
 
 ### People:
 - Mirko Lozzi 
