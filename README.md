@@ -25,7 +25,7 @@ The resource also gives the page names of the articles and the categories of the
 ## Content of the repository:
 
 1) ```main.ipynb``` 
-contains our analysis: answers to research questions and the implemented algorithms.
+contains answers to research questions and the implemented algorithms.<br>
 [Click here](https://nbviewer.jupyter.org/github/AlessandradellaFazia/ADM_HW5/blob/main/main.ipynb) to visualize the notebook.
 2) ```functions.py``` 
 contains all used functions.
